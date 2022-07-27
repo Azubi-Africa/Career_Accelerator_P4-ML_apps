@@ -1,6 +1,5 @@
 # importation of the solution function to test
 from gradio_project.demo_app import greet
-import pandas as pd
 
 
 def test_solution_valid_inputs():
