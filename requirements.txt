@@ -2,3 +2,4 @@ gradio
 streamlit
 pandas
 scikit-learn
+pytest
