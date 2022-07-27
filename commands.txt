@@ -17,7 +17,9 @@ python -m pip install -qr requirements.txt
 
 
 # Normal app execution
-python ...
+python gradio_project/demo_app.py
+
+streamlit run streamlit_project/demo_app.py
 
 # Run tests
 python -m pytest -v
