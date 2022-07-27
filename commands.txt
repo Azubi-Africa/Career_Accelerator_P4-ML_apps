@@ -12,8 +12,8 @@ deactivate
 
 
 # Install required packages
-pip3 install --upgrade pip               # update pip first before to use it, to avoid warning
-pip3 install -qr requirements.txt
+python -m pip install --upgrade pip               # update pip first before to use it, to avoid warning
+python -m pip install -qr requirements.txt
 
 
 # Normal app execution
