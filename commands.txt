@@ -35,3 +35,6 @@ streamlit run streamlit_project/demo_app.py
 
 # Run tests
 python -m pytest -v
+
+# Freeze packages' version
+pip3 freeze > requirements_v.txt
