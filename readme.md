@@ -70,10 +70,10 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
         
       http://localhost:8501
 
-## Structure
+<!-- ## Structure
 ### File: app.py
 
-### Folder: ml
+### Folder: ml -->
 
 <!-- ## How to use this repository
 ### Import the repo
