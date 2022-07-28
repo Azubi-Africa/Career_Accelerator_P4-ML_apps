@@ -49,7 +49,7 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
 - Install the necessary dependencies with the command :
         
-      python -m pip install --upgrade pip; pip install -r requirements.txt
+      python -m pip install --upgrade pip; python -m pip install -r requirements.txt
 
 - Run the demo app :
         
