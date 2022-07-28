@@ -1,7 +1,8 @@
 # Setup virtual environment
 
 ## One-line Setup
-python3 -m venv venv | venv\Scripts\activate | python3 -m pip install --upgrade pip | pip3 install -qr requirements.txt |  
+### Windows
+python3 -m venv venv; venv\Scripts\activate; python -m pip install --upgrade pip; python -m pip install -qr requirements.txt  
 
 ## ManualSetup
 ### Create the venv
