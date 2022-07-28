@@ -31,7 +31,7 @@ You have two ways in order to setup and run this project.
 
 ### Manual Setup
 
-For manual installation, you need to have [`Python3`](https://www.python.org/) on your system. Then you can clone this repo and being at the repo's `root`  follow the steps below :
+For manual installation, you need to have [`Python3`](https://www.python.org/) on your system. Then you can clone this repo and being at the repo's `root` follow the steps below:
 
 - Create a virtual environment with the command :
         
