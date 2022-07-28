@@ -1,5 +1,7 @@
 # 🚀 Friendly Web Interface for ML Projects with Gradio & Streamlit 🚀
 
+There are many ways to make web interfaces to allow interaction with Machine Learning models and we will cover two of them.
+
 [![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 [![MIT licensed](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&logo=appveyor)](./LICENSE)
 ![Issues](https://img.shields.io/github/issues/PapiHack/wimlds-demo?style=for-the-badge&logo=appveyor)
@@ -11,7 +13,17 @@
 
 ## Description
 
-<!-- This [repository](https://github.com/eaedk/ML_app_embeded_using_Flask) is a starter code to present to help you to embed your machine learning model into a Flask app. -->
+<!-- 
+[gradio](https://gradio.app/)
+[streamlit](https://streamlit.io/)
+-->
+
+You will have a minimal interface demo with [Gradio](https://gradio.app/) & [Streamlit](https://streamlit.io/), this will just serve you to make sure that everything works correctly. Then, you will have to make your own interfaces, those allowing you to interact with a Machine Learning model, that is to say:
+- Pass values through the interface;
+- Recover these values in backend;
+- Apply the necessary processing;
+- Submit the previously processed values to the ML model to make the predictions;
+- Process the predictions obtained and display them on the interface.
 
 ## Installation
 
@@ -19,27 +31,44 @@ You have two ways in order to setup and run this project.
 
 ### Manual Setup
 
-For manual installation, you need to have `Python` (version 3 is preferable) on your system. Then you can clone this repo and follow the steps below :
+For manual installation, you need to have `Python` (version 3, is the required one) on your system. Then you can clone this repo and being at the repo's `root`  follow the steps below :
 
 - Create a virtual environment with the command :
         
         python3 -m venv venv
-<!-- 
+
 - Activate the virtual environment with the command :
-        
-        . venv/bin/activate or source venv/bin/activate
+  
+  Windows:
+
+      venv/bin/activate 
+  
+  Linux: 
+
+      source venv/bin/activate
 
 - Install the necessary dependencies with the command :
         
-        pip install -r requirements.txt
+        python -m pip install --upgrade pip | pip install -r requirements.txt
 
-- Start the server with the command :
+- Run the demo app :
         
-        python app.py
+  Gradio:
 
-- Go to your browser at the following address :
+      python gradio_project/demo_app.py
+
+  - Go to your browser at the following address :
         
-        http://localhost:5000 -->
+        http://localhost:5000
+
+
+  Streamlit: 
+
+      streamlit run streamlit_project/demo_app.py
+
+  - Go to your browser at the following address :
+        
+        http://localhost:5000
 
 ## Structure
 ### File: app.py
