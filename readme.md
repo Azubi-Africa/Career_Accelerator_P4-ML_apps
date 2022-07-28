@@ -104,13 +104,16 @@ If there is an error, replace `python3` by `python`. -->
 Here are some ressources you would read to have a good understanding of Gradio and Streamlit :
 - [Get started with Streamlit](https://docs.streamlit.io/library/get-started/create-an-app)
 
+- [Get started with Gradio](https://gradio.app/getting_started/)
+
+
 
 
 ## Contributing
 
-Feel free to make a PR or report an issue 😃
+Feel free to make a PR or report an issue 😃.
 
-Oh, one more thing, please do not forget to put a description when you make your PR 🙂
+Oh, one more thing, please do not forget to put a description when you make your PR 🙂.
 
 ## Author
 
