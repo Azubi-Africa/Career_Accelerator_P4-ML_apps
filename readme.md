@@ -51,11 +51,22 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
         
       python -m pip install --upgrade pip; python -m pip install -r requirements.txt
 
-- Run the demo app :
+- Run the demo apps :
         
-  Gradio:
+  - Gradio:
+    
+    - Demo
 
-      python gradio_project/demo_app.py
+          python gradio_project/demo_app.py
+
+    - Salary prediction
+
+          python gradio_project/salary/salary_app.py
+
+    - Titanic survival prediction
+
+          python gradio_project/titanic/titanic_app.py   
+
 
   - Go to your browser at the following address :
         
