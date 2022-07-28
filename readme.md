@@ -59,7 +59,7 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
   - Go to your browser at the following address :
         
-      http://localhost:5000
+      http://127.0.0.1:7860/
 
 
   Streamlit: 
