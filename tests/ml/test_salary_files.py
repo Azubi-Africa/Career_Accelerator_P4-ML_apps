@@ -18,7 +18,7 @@ def test_load_processor():
     file_loaded = False
     try:
         with open("ml/salary/processing.pkl", "rb") as f:
-            model = pickle.load(f)
+            processor = pickle.load(f)
         file_loaded = True
     except:
         pass
