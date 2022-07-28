@@ -73,15 +73,28 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 <!-- ## Structure
 ### File: app.py
 
-### Folder: ml -->
+### Folder: ml 
 
-<!-- ## How to use this repository
-### Import the repo
-Clone or download the repo on your local machine.
-### Setup the environment
-1. Install Python 3 on your system. 
-2. Being in the repository, activate the virtual environment : 
+C:.
+├───.pytest_cache
+│   └───v
+│       └───cache
+├───gradio_project
+│   ├───salary 
+│   └───titanic
+├───ml
+│   ├───salary
+│   └───titanic
+├───streamlit_project
+└───tests
+    ├───gradio_project
+    ├───ml
+    └───streamlit_project
 
+
+-->
+
+<!-- ## 
 this command line will work in linux
 ```console
 source venv/bin/activate
