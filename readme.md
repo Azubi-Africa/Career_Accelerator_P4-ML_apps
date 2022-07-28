@@ -105,23 +105,16 @@ C:.
 
 -->
 
-<!-- ## 
-this command line will work in linux
-```console
-source venv/bin/activate
-```        
+## Screenshots
 
-this command line will work in windows
-```console
-venv\Scripts\activate
-```           
-
-### Run the Flask app
-
-```console
-```
-
-If there is an error, replace `python3` by `python`. -->
+<table>
+    <tr>
+        <th>Gradio web interface</th>
+    </tr>
+    <tr>
+        <td><img src="./screenshots/salary_app_interface.png"/></td>
+    </tr>
+</table>
 
 
 ## Resources
