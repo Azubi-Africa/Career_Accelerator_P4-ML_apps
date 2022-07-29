@@ -109,7 +109,8 @@ C:.
 
 <table>
     <tr>
-        <th>Gradio web interface</th>
+        <th>Gradio Salary Prediction</th>
+        <th>Gradio Titanic Survival Prediction</th>
     </tr>
     <tr>
         <td><img src="./screenshots/gr_salary_app_interface.png"/></td>
@@ -119,7 +120,7 @@ C:.
 
 <table>
     <tr>
-        <th>Streamlit web interface</th>
+        <th>Streamlit Basic Demo</th>
     </tr>
     <tr>
         <td><img src="./screenshots/st_basic_demo_app_interface.png"/></td>
