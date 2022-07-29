@@ -33,7 +33,7 @@ demo = gr.Interface(
     [
         gr.Dropdown(["first", "second", "third"], type="index"),
         "checkbox",
-        gr.Slider(0, 80, value=25),
+        gr.Slider(0, 80, value=25, step=1),
         gr.CheckboxGroup(["Sibling", "Child"], label="Travelling with (select all)"),
         gr.Number(value=20),
         gr.Radio(["S", "C", "Q"], type="index"),
@@ -45,8 +45,10 @@ demo = gr.Interface(
         ["third", True, 30, ["Child"], 20, "S"],
     ],
     interpretation="default",
-    # live=True,
+    live=True,
 )
 
 
-demo.launch()
+demo.launch(
+    # share=True,
+)

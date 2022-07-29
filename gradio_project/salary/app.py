@@ -51,31 +51,34 @@ demo = gr.Interface(
                 "fifteen",
             ],
             type="value",
+            label="Experience",
         ),
-        gr.Slider(0, 10, value=5, step=1),
-        gr.Slider(0, 10, value=5, step=1),
+        gr.Slider(0, 10, value=5, step=1, label="Technical test score"),
+        gr.Slider(0, 10, value=5, step=1, label="Interview score"),
     ],
-    "number",
+    gr.Number(label="Predicted Salary"),
     examples=[
         [
-            "first",
+            "one",
             1,
             4,
         ],
         [
-            "second",
+            "two",
             7,
             4,
         ],
         [
-            "third",
+            "four",
             6,
             9,
         ],
     ],
     interpretation="default",
-    # live=True,
+    live=True,
 )
 
 
-demo.launch()
+demo.launch(
+    # share=True,
+)
