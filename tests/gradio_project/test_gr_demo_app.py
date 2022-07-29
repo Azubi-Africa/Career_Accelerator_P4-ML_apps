@@ -1,5 +1,5 @@
 # importation of the solution function to test
-from gradio_project.demo_app import greet
+from gradio_project.basic_demo.app import greet
 
 
 def test_solution_valid_inputs():

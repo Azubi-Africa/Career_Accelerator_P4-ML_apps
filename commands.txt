@@ -28,10 +28,10 @@ python -m pip install -qr requirements.txt
 
 # Normal app execution
 ## Gradio
-python gradio_project/demo_app.py
+python gradio_project/basic_demo/app.py
 
 # Streamlit
-streamlit run streamlit_project/demo_app.py
+streamlit run streamlit_project/basic_demo/app.py
 
 # Run tests
 python -m pytest -v

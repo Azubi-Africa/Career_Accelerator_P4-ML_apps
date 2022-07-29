@@ -1,8 +1,11 @@
 import streamlit as st
 import pandas as pd
+import os
+
 
 # first line after the importation section
 st.set_page_config(page_title="Demo app", page_icon="🐞", layout="centered")
+DIRPATH = os.path.dirname(os.path.realpath(__file__))
 
 
 @st.cache()  # stop the hot-reload to the function just bellow
@@ -20,7 +23,7 @@ def setup(tmp_df_file):
     ).to_csv(tmp_df_file, index=False)
 
 
-tmp_df_file = "streamlit_project/data.csv"
+tmp_df_file = os.path.join(DIRPATH, "tmp", "data.csv")
 setup(tmp_df_file)
 
 

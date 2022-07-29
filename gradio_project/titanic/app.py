@@ -3,7 +3,7 @@ import pandas as pd
 from utils import *
 import pickle
 
-with open("ml/titanic/titanic_model.pkl", "rb") as f:
+with open("ml/titanic/model.pkl", "rb") as f:
     model = pickle.load(f)
 
 

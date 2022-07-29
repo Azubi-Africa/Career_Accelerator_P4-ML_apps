@@ -31,7 +31,7 @@ You have two ways in order to setup and run this project.
 
 ### Manual Setup
 
-For manual installation, you need to have [`Python3`](https://www.python.org/) on your system. Then you can clone this repo and being at the repo's `root` follow the steps below:
+For manual installation, you need to have [`Python3`](https://www.python.org/) on your system. Then you can clone this repo and being at the repo's `root :: friendly_web_interface_for_ML_models> ...`  follow the steps below:
 
 - Create a virtual environment with the command :
         
@@ -57,15 +57,15 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
     
     - Demo
 
-          python gradio_project/demo_app.py
+          python gradio_project/basic_demo/app.py
 
     - Salary prediction
 
-          python gradio_project/salary/salary_app.py
+          python gradio_project/salary/app.py
 
     - Titanic survival prediction
 
-          python gradio_project/titanic/titanic_app.py   
+          python gradio_project/titanic/app.py   
 
 
   - Go to your browser at the following address :
@@ -75,7 +75,7 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
   Streamlit: 
 
-      streamlit run streamlit_project/demo_app.py
+      streamlit run streamlit_project/basic_demo/app.py
 
   - Go to your browser at the following address :
         
