@@ -112,10 +112,19 @@ C:.
         <th>Gradio web interface</th>
     </tr>
     <tr>
-        <td><img src="./screenshots/salary_app_interface.png"/></td>
+        <td><img src="./screenshots/gr_salary_app_interface.png"/></td>
+        <td><img src="./screenshots/gr_titanic_app_interface.png"/></td>
     </tr>
 </table>
 
+<table>
+    <tr>
+        <th>Streamlit web interface</th>
+    </tr>
+    <tr>
+        <td><img src="./screenshots/st_basic_demo_app_interface.png"/></td>
+    </tr>
+</table>
 
 ## Resources
 Here are some ressources you would read to have a good understanding of Gradio and Streamlit :
