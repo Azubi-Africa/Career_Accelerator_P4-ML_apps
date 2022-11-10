@@ -48,22 +48,22 @@ suitable blogging site.
 
 ## Rubrics
 
-Gradio:
-
--   **Excellent:** Have an an that works correctly with a nice and personalized interface.
-
--   **Good:** Have an app that launches, make prediction and show result.
-
--   **Fair:** Have an app that launches but have bugs regarding prediction or interface.
-
-
 Streamlit:
 
--   **Excellent:** Have an an that works correctly with a nice and personalized interface.
+-   **Excellent:** Have an that works correctly with a nice and personalized interface.
 
--   **Good:** Have an app that launches, make prediction and show result.
+-   **Good:** Have an app that launches, makes prediction and shows result.
 
--   **Fair:** Have an app that launches but have bugs regarding prediction or interface.
+-   **Fair:** Have an app that launches but having bugs regarding prediction or interface.
+
+
+Gradio:
+
+-   **Excellent:** Have an that works correctly with a nice and personalized interface.
+
+-   **Good:** Have an app that launches, makes prediction and shows result.
+
+-   **Fair:** Have an app that launches but having bugs regarding prediction or interface.
 
 ## Installation
 
