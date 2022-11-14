@@ -37,9 +37,9 @@ Your task is to understand the frameworks and build your app integrating a ML mo
 Clone this repository to use it as a template, do not forget to change the readme at the end of the project.
 Your work should follow these next steps.
 
-1.  Build a Streamlit app, during 2 first weeks, to embed the classification model you built a few weeks ago. 
+1.  Build a Streamlit app, during 2 first weeks, to embed the regression model you built a few weeks ago. 
 
-2.  Build a Gradio app, during 2 last weeks, to embed the regression model you built a few weeks ago.
+2.  Build a Gradio app, during 2 last weeks, to embed the classification model you built a few weeks ago.
 
 
 Upon completion of your project, you are required to write a blog post
