@@ -1,4 +1,4 @@
-# 🚀 Friendly Web Interface for ML Projects with Streamlit 🚀
+# 🚀 Embed ML models in Web Frameworks with Streamlit 🚀
 
 There are many ways to make web interfaces to allow interaction with Machine Learning models and we will cover two of them.
 
